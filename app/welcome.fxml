@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="500.0" minWidth="700.0" prefHeight="500.0" prefWidth="700.0" style="-fx-background-image: url(resource/background.jpg);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="yushi.WelcomeController">
+    <children>
+        <Label alignment="CENTER" blendMode="SRC_ATOP" contentDisplay="CENTER" layoutX="253.0" layoutY="122.0" prefHeight="138.0" prefWidth="391.0" text="WELCOME" textAlignment="CENTER" textFill="#4d4747">
+            <font>
+                <Font name="Chalkduster" size="64.0" />
+            </font>
+        </Label>
+        <Button fx:id="goButton" alignment="CENTER" contentDisplay="CENTER" layoutX="249.0" layoutY="244.0" mnemonicParsing="false" onAction="#gotoCanvas" onMouseClicked="#gotoCanvas" prefHeight="97.0" prefWidth="138.0" style="-fx-background-color: transparent;" textAlignment="CENTER" textFill="WHITE">
+            <graphic>
+                <ImageView id="goButton" fitHeight="91.0" fitWidth="119.0" onMouseClicked="#gotoCanvas" pickOnBounds="true">
+                    <image>
+                        <Image url="@../resource/play.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+    </children>
+</AnchorPane>
