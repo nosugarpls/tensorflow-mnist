@@ -1,6 +1,3 @@
-# Project-yu-shi
-Project-yu-shi created by GitHub Classroom
-
 # Number Recognizer
 
 This project demonstrates how to use JavaFX to build an application for handwritten
