@@ -1,7 +1,7 @@
 # Number Recognizer
 
 This project demonstrates how to use JavaFX to build an application for handwritten
-digits classification from MNIST.
+digits classification based on MNIST dataset.
 
 
 ![alt text](https://github.com/NEU-GradStudents/group-project-yu-shi/blob/master/Screen%20Shot%202020-04-20%20at%2011.23.35%20PM.png)
